@@ -16,13 +16,14 @@ document.getElementsByClassName("in4")[0].value = "";
 }
 function gui(){
 let x = document.getElementsByClassName("in1")[0].value;
+  if(x!=""){
 alert ("Cảm ơn bạn " + x + " đã gửi thông tin");
 document.getElementsByClassName("in1")[0].value = "";
 document.getElementsByClassName("in2")[0].value = "";
 document.getElementsByClassName("in3")[0].value = "";
 document.getElementsByClassName("in4")[0].value = "";
 }
-
+}
 </script>
 </head>
 <body>
