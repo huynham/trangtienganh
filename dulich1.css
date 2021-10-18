@@ -68,8 +68,8 @@ background-color:burlywood;
 .phan5 input {width:100%;height:40px; background-color:burlywood;}
 
 .phan6 {width:80%; margin:0 auto; padding:20px;}
-.but1 {padding:20px; margin:10px 0 0 0px;float: left; border-radius:5px;}
-.chacp1 {margin:20px 0 0 40%; padding:10px; border-radius:5px;}
+.but1 {padding:20px; margin:10px 0 0 0px; border-radius:5px;}
+.chacp1 { padding:10px; border-radius:5px;}
 .chacp1 a {text-decoration: none;}
 
 .dc1 {float:left; margin:100px 50px 100px 100px;}
