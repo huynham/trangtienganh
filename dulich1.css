@@ -1,0 +1,90 @@
+* {
+margin:0px; padding:0px;
+}
+
+
+
+#tong {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto;
+    background-color:rgb(224, 200, 162);
+}
+#tong>div {
+width:60%;margin:0 auto;
+
+}
+
+.menu {
+display:flex;justify-content:center;align-items:center;
+
+}
+.menu li {
+text-decoration: none; display:inline; margin:0 0 0 20px;
+transition:all 0.5s;
+padding:10px;
+
+}
+.menu li:hover {
+background-color:burlywood; 
+
+}
+.menu a {
+    text-decoration: none; font-size:20px;
+}
+.phangiua {
+
+
+}
+#tong span {color:red;}
+#tong input:focus {background-color:white;}
+
+.phangiua h1 {margin:50px 0 30px 0;text-align:center;}
+.lietke {margin: 0 0 0 50px;}
+.lietke li {font-size: 20px;padding:0 0 20px 20px;}
+
+.anhgiua img {width:100%; border-radius: 20px;}
+.chach1 {text-align: center; margin:40px 0 40px 0;}
+
+.phan1 {width:80%; margin:0 auto; padding:20px;}
+.phan1h1 {margin: 0 0 10px 0;}
+.phan1 p {margin:0 0 10px 0; }
+.phan1 hr {margin:10px;}
+
+.phan2 {width:80%; margin:0 auto; padding:20px;}
+.phan2p1 {padding:0 0 20px 0;}
+.phan2 input {width:100%;height:40px; background-color:burlywood;}
+   
+.phan3 {width:80%; margin:0 auto; padding:20px;}
+.phan3p1 {padding:0 0 20px 0;}
+.phan3 input {width:100%;height:40px; background-color:burlywood;}
+
+.phan4 {width:80%; margin:0 auto; padding:20px;}
+.phan4p1 {padding:0 0 20px 0;}
+.phan4 input {width:100%;height:40px; background-color:burlywood;}
+
+.phan5 {width:80%; margin:0 auto; padding:20px;}
+.phan5p1 {padding:0 0 20px 0;}
+.phan5 input {width:100%;height:40px; background-color:burlywood;}
+
+.phan6 {width:80%; margin:0 auto; padding:20px;}
+.but1 {padding:20px; margin:10px 0 0 0px;float: left; border-radius:5px;}
+.chacp1 {margin:20px 0 0 40%; padding:10px; border-radius:5px;}
+.chacp1 a {text-decoration: none;}
+
+.dc1 {float:left; margin:100px 50px 100px 100px;}
+.dc1 h2 {margin:5px;}
+.mxh {margin: 100px 0 0 0;}
+.mxh li {display:inline;text-decoration: none;padding: 0 0 0 20px;}
+
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    #tong>div{width:80%;}
+    .menu li {
+        text-decoration: none; display:inline; margin:0 0 0 5px;
+        transition:all 0.5s;
+        padding:5px;
+        
+        }
+    .diachi {display:none;}
+}
